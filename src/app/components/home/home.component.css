@@ -1,0 +1,217 @@
+
+.bg2 {
+    /* The image used */
+    background: linear-gradient(to bottom right, rgb(0,174,57), rgb(0,26,9));
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    width: 139px;
+    height: 113px;
+    margin-left: 7rem;
+    margin-top: 1.5rem;
+}
+
+#jumbro {
+    padding: 1rem 2rem;
+}
+
+
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 300px) {
+    .bg {
+        /* The image used */
+        background-image: url("../../../assets/img/lawn.jpg");
+        height: 100%;
+        background-size: cover;
+        display: inline-table;
+    }
+    .logo {
+        width: 80px;
+        height: 53px;
+        margin-left: 4rem;
+        margin-top: 1.5rem;
+    }
+    .example {background: green;}
+    .subject {
+        font-size: 2.5rem;
+        font-weight: 300;
+        line-height: 1.2;
+    }
+    .text {
+        font-size: 1.25rem;
+        font-weight: 300;
+    }
+    .text2 {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #212529;
+        text-align: left;
+    }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 1150px) {
+    .bg {
+        /* The image used */
+        background-image: url("../../../assets/img/lawn.jpg");
+        height: 100%;
+        background-size: cover;
+        display: inline-table;
+    }
+    .logo {
+        width: 100px;
+        height: 73px;
+        margin-left: 4rem;
+        margin-top: 1.5rem;
+    }
+    .example {background: blue;}
+    .subject {
+        font-size: 2.0rem;
+        font-weight: 300;
+        line-height: 1.2;
+    }
+    .text {
+        font-size: 1.25rem;
+        font-weight: 300;
+    }
+    .text2 {
+        font-size: 0.5rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #212529;
+        text-align: left;
+        display: none;
+    }
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 1250px) {
+    .bg {
+        /* The image used */
+        background-image: url("../../../assets/img/lawn.jpg");
+    
+        /* Full height */
+        height: 100%; 
+    
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: inline-table;
+    }
+    .logo {
+        width: 119px;
+        height: 93px;
+        margin-left: 4rem;
+        margin-top: 1.5rem;
+    }
+    .example {background: orange;}
+    .subject {
+        font-size: 2.5rem;
+        font-weight: 300;
+        line-height: 1.2;
+    }
+    .text {
+        font-size: 1.00rem;
+        font-weight: 300;
+    }
+    .text2 {
+        font-size: 0.8rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #212529;
+        text-align: left;
+        display: -webkit-flex;
+    }
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1500px) {
+    .bg {
+        /* The image used */
+        background-image: url("../../../assets/img/lawn.jpg");
+        display: inline-table;
+        /* Full height */
+        height: 100%; 
+    
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .logo {
+        width: 139px;
+        height: 113px;
+        margin-left: 4rem;
+        margin-top: 1.5rem;
+    }
+    
+    .example {background: pink;}
+    .subject {
+        font-size: 3.5rem;
+        font-weight: 300;
+        line-height: 1.2;
+    }
+    .text {
+        font-size: 1.25rem;
+        font-weight: 300;
+    }
+    .text2 {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #212529;
+        text-align: left;
+    }
+ }
+
+ @media only screen and (max-height: 600px) {
+    .text {
+        display: none;
+    }
+    .text2 {
+        display: none;
+    }
+ }
+
+ /*effect-underline*/
+a.effect-underline:after {
+	content: '';
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  height: 1em;
+  width: 100%;
+  border-bottom: 1px solid;
+  margin-top: 10px;
+  opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale(0,1);
+	transform: scale(0,1);
+}
+
+a.effect-underline:hover:after {
+  opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+.topmenu {
+    color: rgb(98, 5, 5);
+    font-size: 2em;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    font-family: 'Dosis', sans-serif;
+    margin-left:2rem;
+  }
